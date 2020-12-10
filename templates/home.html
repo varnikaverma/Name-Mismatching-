@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title>Compliance</title>
+</head>
+<body>
+
+    <h1><div style="text-align:center"><font color='blue'>Compliance</font></div></h1>
+    <hr>
+    <br>
+    <h2><div style="text-align:center"><font color='black'>Enter the following details</font></div></h2>
+    <br>
+    <div class='container'>
+    	<div class='row'>
+    		<div class='col-6'>
+    		    <form action="/predict" method="POST">
+    				<div class='form-group'>
+    					<label for='accname'><p class='font-weight-bold'>Acc Name</p></label>
+    					<input type='text' name='accname'>
+    				</div>
+                    <div class='form-group'>
+                        <label for='dlname'><p class='font-weight-bold'>DL Name</p></label>
+                        <input type='text' name='dlname'>
+                    </div>
+    			    <input class='btn btn-primary' type='submit' value='Submit'>
+    			</form>
+    		</div>
+    	</div>
+    </div>
+</body>
+</html>
